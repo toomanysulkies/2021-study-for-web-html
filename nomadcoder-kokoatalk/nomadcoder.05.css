@@ -1,3 +1,169 @@
 /* @media screen and (min-width:601px) and (max-width:1200x)
 {div { background-color: wheat;}
 }   이런 식으로 미디어 쿼리를 작성한다*/ 
+*{
+  box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction:column;
+	border: 5px solid rgb(31, 224, 192);
+	width:406px;
+	height:880px;
+}
+
+.status-bar
+{ font-size:30px;
+	margin-top: -20px;
+display: flex;
+justify-content: center;
+align-items: space-between;
+	flex-direction:row;
+height: 40px;}
+
+.status-bar__column:first-child .fa-times
+{	margin-left:-110px;}
+
+.status-bar__column:last-child span
+{display: flex;
+justify-content: center;
+}
+
+.main
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin-left: -30px;
+
+}
+.main__picture 
+{background-color:#eeba0f;
+	width: 135px; height: 135px;
+border-radius: 20%;
+border:2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;}
+
+.main__picture i{color:white;}
+
+.main__caption__cap
+{ margin-top: -5px;
+	margin-left: 30px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	justify-content: column;
+}
+
+.main__caption__cap:first-child
+{
+	font-size: 30px;
+}
+.main__caption__cap:nth-child(2)
+{
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+.button-bar
+{ 
+	height: 67px;
+	display: flex;
+	justify-content:center;
+	align-items: space-between;
+	flex-direction: row;
+
+}
+
+.button-bar__play
+{margin:10px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: row;
+	width: 180px; height: 65px;
+	border-radius: 20px  20px  20px  20px;
+	border: 2px solid black;
+box-shadow: 0px 3px 0px 1px #000000;
+
+
+}
+.button-bar__play span{
+	font-size:25px;
+	margin-left: 20px;
+}
+
+.button-bar__heart
+{	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 63px; height: 63px;
+	border-radius:50%;
+	border: 2px solid black;
+box-shadow: 0px 3px 0px 1px #000000;
+margin:10px;
+}
+
+.button-bar__add
+{display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 63px; height: 63px;
+	border-radius:50%;
+	border: 2px solid black;
+box-shadow: 0px 3px 0px 1px #000000;
+margin:10px;
+}
+
+#list{display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-bottom: -10px;
+margin-left: -30px;
+}
+
+
+.list__list
+{display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 30px;}
+
+.list__list__caption
+{margin-left: 10px;
+	display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.title
+{font-size: 20px;}
+
+.writer
+{font-size: 15px;
+	opacity:0.5 ;}
+
+.list__list__rec
+{width: 50px;
+	height: 50px;
+border-radius: 20%;
+border: 2px solid black;}
+#r1
+{background-color: rgb(235, 66, 23);}
+#r2
+{background-color: rgb(219, 54, 183);}
+#r3
+{background-color: rgb(87, 219, 54);}
+#r4
+{background-color: rgb(203, 219, 54);}
