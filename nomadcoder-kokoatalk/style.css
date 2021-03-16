@@ -11,7 +11,9 @@
 @import "find.css";
 @import "icon-row.css";
 @import "more.css";
-@import "alt.screen.header.css";
+@import "alt-screen-header.css";
+@import "setting.css";
+@import "chat.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
