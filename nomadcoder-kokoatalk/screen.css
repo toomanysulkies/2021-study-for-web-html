@@ -26,3 +26,13 @@
   top: 25px;
   right: 20px;
 }
+
+@keyframes cogSpin{
+  from{transform:none;
+  }
+  to{transform:rotateZ(360deg)
+  }}
+
+.screen-header .fa-cog:hover{
+  animation: cogSpin 1s ease-in-out infinite;
+}

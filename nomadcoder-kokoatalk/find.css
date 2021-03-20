@@ -93,3 +93,17 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartBeat{
+  0%{transform: none;
+  color: white;}
+ 50%{transform:scale(3);
+  color: rgb(223, 20, 88);}
+  100%{transform: none;
+    color: white;}
+}
+
+.open-post__heart-count .fa-heart:hover{
+  will-change: transform;
+  animation: heartBeat 1s ease-in-out infinite ;
+}
