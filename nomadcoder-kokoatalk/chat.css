@@ -163,3 +163,9 @@ to{opacity: 1;
 		.reply:focus-within .reply__column:first-child{
 			display: none;
 		}
+
+		.reply input:focus-within{
+			padding:14px;
+				width: 115%;
+		
+		}
