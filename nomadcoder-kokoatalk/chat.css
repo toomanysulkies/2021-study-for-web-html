@@ -163,9 +163,20 @@ to{opacity: 1;
 		.reply:focus-within .reply__column:first-child{
 			display: none;
 		}
-
-		.reply input:focus-within{
-			padding:14px;
+		.reply:focus-within .reply__column input{
+		padding:14px 0px 14px 14px;
 				width: 115%;
-		
+	
 		}
+
+		
+
+		.reply:focus-within  .reply__column:last-child  button
+		 {position: absolute;
+     right:-50px;
+		}
+		.reply:focus-within  .reply__column:last-child >i
+		 {position: absolute;
+     right:-5px;
+		}
+
