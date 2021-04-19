@@ -1,3 +1,4 @@
+
 .more-screen .icon-row {
   margin-top: 35px;
 }
@@ -8,6 +9,9 @@
   margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
+  background-color: transparent;
+  
+
 }
 .more-suggestion__title {
   margin-bottom: 30px;
@@ -15,18 +19,21 @@
 
 .more-suggestions__icons {
   display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--org);
+ 
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -36,5 +43,9 @@
 
 .more-suggestions__icon-image i {
   font-size: 36px;
-  color: white;
+  color: rgba(255, 255, 255, 0.89);
+  background-color: transparent;
+}
+.more-suggestions__icon-text{
+  margin-top: -10px;
 }

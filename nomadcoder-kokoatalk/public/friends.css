@@ -1,7 +1,10 @@
+
+
+
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #fafafa59;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 10px;
@@ -47,7 +50,7 @@
 }
 
 #splash-screen {
-  background-color: rgb(255, 255, 255);
+  background:linear-gradient(to left, rgb(255, 255, 255) 28px, rgb(255, 146, 73) 78%, rgb(217, 247, 112), rgb(255, 255, 255) );
   position: absolute;
   width: 100vw;
   height: 100vh;

@@ -18,7 +18,7 @@
 
 .red__dot {
   display: flex;
-  background-color: tomato;
+  background-color: rgb(89, 119, 252);
   width: 5px;
   height: 5px;
   border-radius: 50%;
