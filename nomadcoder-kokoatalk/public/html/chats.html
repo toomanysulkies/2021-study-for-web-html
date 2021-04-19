@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Setting</title>
-    <link href="all.min.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <title>Welcome to Kokoa Talk</title>
+    <link href="../css/all.min.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
   </head>
   <body>
     <div class="status-bar">
@@ -27,67 +27,58 @@
       </div>
     </div>
 
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="more.html"> <i class="fas fa-angle-left fa-2x"></i></a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
-      </div>
-      <div class="alt-header__column">
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <ul class="setting-list">
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fa fa-bullhorn"></i>
-            <span>Notices</span>
+      <a href="../html/chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar"
+              src="../img/gigi.jpg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Gigi</h4>
+              <h6 class="user-component__subtitle">Yo!</h6>
+            </div>
           </div>
-          <div class="settings__setting-column"></div>
-        </li>
-
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-flask"></i>
-            <span>Tangerine Labs</span>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
           </div>
-          <div class="settings__setting-column"></div>
-        </li>
-
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-info-circle"></i>
-            <span>Version</span>
-          </div>
-          <div class="settings__setting-column">Latest Version</div>
-        </li>
-      </ul>
+        </div></a
+      >
     </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
+          <a class="nav__link" href="../html/friends.html">
             <i class="far fa-user fa-2x"></i>
           </a>
         </li>
 
         <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <i class="far fa-comment fa-2x"></i>
+          <a class="nav__link" href="../html/chats.html">
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
 
         <li class="nav__btn">
-          <a class="nav__link" href="find.html">
+          <a class="nav__link" href="../html/find.html">
             <i class="fas fa-search fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html"
+          <a class="nav__link" href="../html/more.html"
             ><i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
         </li>
